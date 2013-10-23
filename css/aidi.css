@@ -1,0 +1,45 @@
+#search-menu{
+	margin: 8px 0px 0px;
+}
+
+.menu-form {
+	margin: 0px -14.7px 0px ;
+}
+
+
+@media ( max-width: 768px){
+	#search-menu{
+	margin: 5px 6px 5px 6px;
+	}
+}
+
+#logo {
+	margin: -24px 0px -13px -4px;
+}
+
+@media (max-width: 552px){
+	.navbar-brand-costum{
+		width: 235px;
+	}
+}
+
+
+.top-menu {
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(left, #FFFFFF 0%, #00A3EF 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(left, #FFFFFF 0%, #00A3EF 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(left, #FFFFFF 0%, #00A3EF 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FFFFFF), color-stop(1, #00A3EF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(left, #FFFFFF 0%, #00A3EF 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to right, #FFFFFF 0%, #00A3EF 100%);
+}
